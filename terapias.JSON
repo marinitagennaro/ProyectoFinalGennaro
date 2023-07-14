@@ -1,0 +1,44 @@
+[
+    {
+        "nombre":"Psicologia",
+        "tipo":"cognitiva",
+        "cantidadMax": 2,
+        "disponibilidad": 40
+    },
+    {
+        "nombre":"Psicopedagogia",
+        "tipo":"cognitiva",
+        "cantidadMax": 2,
+        "disponibilidad": 30
+    },
+    {
+        "nombre":"Fonoaudiologia",
+        "tipo":"cognitiva",
+        "cantidadMax": 1,
+        "disponibilidad": 20
+    },
+    {
+        "nombre":"Terapia ocupacional",
+        "tipo":"cognitiva/motor",
+        "cantidadMax": 2,
+        "disponibilidad": 35
+    },
+    {
+        "nombre":"Psicomotricidad",
+        "tipo":"cognitiva/motor",
+        "cantidadMax": 2,
+        "disponibilidad": 20
+    },
+    {
+        "nombre":"Hidroterapia",
+        "tipo":"cognitiva/motor",
+        "cantidadMax": 1,
+        "disponibilidad": 30
+    },
+    {
+        "nombre":"Kinesiologia",
+        "tipo":"motor",
+        "cantidadMax": 2,
+        "disponibilidad": 25
+    }
+]

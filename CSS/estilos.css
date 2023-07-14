@@ -1,0 +1,75 @@
+
+/*ESTO ES PARA AGREGRAR EL MODO OSCURO POR SI ALGUIEN ES FOTO SENSIBLE COMO LO HICIMS EN CLASE*/
+.dark{
+
+    background-color: #1f1d1d;
+    color: rgb(251, 252, 251);
+
+}
+
+.light{
+
+    background-color: white;
+    color: black;
+
+}
+
+/*ESTILOS PARA EL RESTO DEL HTML*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+#principal {
+    font-size: medium;
+    height: 370px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+#secundario {
+    margin-bottom: 20px;
+}
+h1 {
+    color: #444;
+}
+input, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+}
+#tablaTurnos {
+    width: 50%;
+    border-collapse: collapse;
+}
+#tablaTurnos th, #tablaTurnos td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+#tablaTurnos th {
+    background-color: #4CAF50;
+    color: white;
+}
+#tablaTurnos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
