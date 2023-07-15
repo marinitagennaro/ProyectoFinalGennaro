@@ -273,7 +273,7 @@ let especialidadPedida = []
 let especialidadesMarcadas = document.querySelector("#especialidadesMarcadas");
 const fetchTerapias = async () => {
 try {
-    const response = await fetch("terapias.JSON");
+    const response = await fetch("./terapias.JSON");
     const infoData = await response.json();
     infoData.forEach((especialidad) => {
     const div = document.createElement("div");
@@ -322,8 +322,8 @@ console.table(especialidades);
 
 const tipoEspecialidad = () =>{
     return{
-        nombre: terapias.especialidad,
-        cantidadMax: terapias.cantidadMax
+        nombre: Terapias.especialidad,
+        cantidadMax: Terapias.cantidadMax
     }
 };
 
